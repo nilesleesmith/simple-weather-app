@@ -1,89 +1,73 @@
 # Current Weather Lookup
 
-A simple JavaScript project that retrieves current weather information for a city and country.
+Look up current weather and air-quality information for a city using WeatherAPI.
 
-## About
+## Overview
 
-This project allows a user to enter a city and country and request current weather information from WeatherAPI.
+Current Weather Lookup lets a user enter a city and a two-character state or country value, then requests current conditions from WeatherAPI.
 
-The returned data is separated into individual weather values and displayed on the page.
-
-The project also converts the U.S. EPA air quality index into a readable air quality description.
+The application displays the returned weather condition, weather icon, UV level, temperature, feels-like temperature, humidity, wind speed, and U.S. EPA air-quality index.
 
 ## Features
 
-- Enter a city and country
-- Retrieve current weather data
-- Display weather condition
-- Display weather icon
+- Search by city and state or country
+- Retrieve current weather data from WeatherAPI
+- Display weather condition and icon
 - Display UV level
-- Display current temperature
-- Display feels-like temperature
+- Display current and feels-like temperatures
 - Display humidity
 - Display wind speed
-- Display air quality information
-- Display the current date and time
-
-## Topics Practiced
-
-### APIs
-
-- Using `fetch()`
-- Building API request URLs
-- Reading JSON responses
-- Accessing nested object properties
-
-### Functions
-
-- Declaring functions
-- Passing arguments
-- Using parameters
-- Separating individual display tasks into functions
-
-### Objects
-
-- Accessing nested API data
-- Reading weather properties
-- Reading air quality properties
-
-### Conditionals
-
-- Using `if`
-- Using `else if`
-- Converting numerical air quality values into descriptions
-
-### Strings
-
-- Combining city and country values
-- Building dynamic URLs
-- Combining text and returned API values
-
-### DOM Manipulation
-
-- Reading form inputs
-- Updating text
-- Updating image sources
-- Displaying weather information
+- Display U.S. EPA air-quality information
+- Display the date and time of the request
 
 ## Technologies
 
-- HTML5
-- CSS3
-- JavaScript
-- WeatherAPI
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  </a>
+</p>
 
-## Running the Project
+- [WeatherAPI](https://www.weatherapi.com/)
 
-1. Clone or download the repository.
-2. Add a valid WeatherAPI key.
-3. Open `index.html`.
-4. Enter a city and country.
-5. Select the weather button.
-6. Review the current weather information.
-7. Open the browser developer tools and select the Console to view logged data.
+## How to Run
 
-## Purpose
+1. Clone the repository:
 
-This project was created while practicing JavaScript APIs, functions, objects, conditionals, and DOM manipulation.
+```bash
+git clone https://github.com/nilesleesmith/simple-weather-app.git
+```
 
-The focus is on retrieving current weather data, working with nested API response objects, and using small functions to display individual pieces of information.
+2. Open `js/main2.js`.
+
+3. Replace the placeholder `yourKeyAPI` value with a valid WeatherAPI key.
+
+4. Open `index.html` in a web browser.
+
+No additional packages or build steps are required.
+
+## Live Site
+
+Coming soon.
+
+## Screenshots
+
+### Desktop
+
+![Current Weather Lookup desktop view](./screenshots/simple-weather-app-desktop.png)
+
+### Tablet
+
+![Current Weather Lookup tablet view](./screenshots/simple-weather-app-tablet.png)
+
+### Mobile
+
+![Current Weather Lookup mobile view](./screenshots/simple-weather-app-mobile.png)
