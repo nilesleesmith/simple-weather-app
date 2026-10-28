@@ -56,18 +56,8 @@ No additional packages or build steps are required.
 
 ## Live Site
 
-Coming soon.
+https://nilesleesmith.github.io/simple-weather-app/
 
 ## Screenshots
 
-### Desktop
-
 ![Current Weather Lookup desktop view](./screenshots/simple-weather-app-desktop.png)
-
-### Tablet
-
-![Current Weather Lookup tablet view](./screenshots/simple-weather-app-tablet.png)
-
-### Mobile
-
-![Current Weather Lookup mobile view](./screenshots/simple-weather-app-mobile.png)
